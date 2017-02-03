@@ -1,0 +1,205 @@
+
+/* jssor slider bullet navigator skin 05 css */
+/*
+.jssorb05 div           (normal)
+.jssorb05 div:hover     (normal mouseover)
+.jssorb05 .av           (active)
+.jssorb05 .av:hover     (active mouseover)
+.jssorb05 .dn           (mousedown)
+*/
+.jssorb05 {
+    position: absolute;
+}
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 16px;
+    height: 16px;
+    background: url('img/b05.png') no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb05 div { background-position: -7px -7px; }
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+.jssorb05 .av { background-position: -67px -7px; }
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+/* jssor slider arrow navigator skin 22 css */
+/*
+.jssora22l                  (normal)
+.jssora22r                  (normal)
+.jssora22l:hover            (normal mouseover)
+.jssora22r:hover            (normal mouseover)
+.jssora22l.jssora22ldn      (mousedown)
+.jssora22r.jssora22rdn      (mousedown)
+*/
+.jssora22l, .jssora22r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 40px;
+    height: 58px;
+    cursor: pointer;
+    background: url('img/a22.png') center center no-repeat;
+    overflow: hidden;
+}
+.jssora22l { background-position: -10px -31px; }
+.jssora22r { background-position: -70px -31px; }
+.jssora22l:hover { background-position: -130px -31px; }
+.jssora22r:hover { background-position: -190px -31px; }
+.jssora22l.jssora22ldn { background-position: -250px -31px; }
+.jssora22r.jssora22rdn { background-position: -310px -31px; }  /* jssor slider arrow navigator skin 02 css */
+  /*
+  .jssora02l                  (normal)
+  .jssora02r                  (normal)
+  .jssora02l:hover            (normal mouseover)
+  .jssora02r:hover            (normal mouseover)
+  .jssora02l.jssora02ldn      (mousedown)
+  .jssora02r.jssora02rdn      (mousedown)
+  */
+  .jssora02l, .jssora02r {
+      display: block;
+      position: absolute;
+      /* size of arrow element */
+      width: 55px;
+      height: 55px;
+      cursor: pointer;
+      background: url('img/a02.png') no-repeat;
+      overflow: hidden;
+  }
+  .jssora02l { background-position: -3px -33px; }
+  .jssora02r { background-position: -63px -33px; }
+  .jssora02l:hover { background-position: -123px -33px; }
+  .jssora02r:hover { background-position: -183px -33px; }
+  .jssora02l.jssora02ldn { background-position: -3px -33px; }
+  .jssora02r.jssora02rdn { background-position: -63px -33px; }
+/* jssor slider thumbnail navigator skin 11 css *//*.jssort11 .p            (normal).jssort11 .p:hover      (normal mouseover).jssort11 .pav          (active).jssort11 .pav:hover    (active mouseover).jssort11 .pdn          (mousedown)*/
+.jssort11 .p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 251px;
+  height: 102px;
+  background: white;
+}
+  .jssort11 .tp {
+    position: absolute;
+  top: 2px;
+  left: 16px;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+    .jssort11 .i, .jssort11 .pav:hover .i {
+      position: absolute;
+      top: 16px;
+      left: 15px;
+      width: 94px;
+      height: 66px;
+      border: none;
+  }
+      * html .jssort11 .i {
+        width /**/: 62px;
+        height /**/: 32px;
+        }
+        .jssort11 .pav .i {
+          border: white 1px solid;
+          }
+          .jssort11 .t, .jssort11 .pav:hover .t {
+            position: absolute;
+            top: 27px;
+            left: 111px;
+            width: 127px;
+            height: 79px;
+            line-height: 36px;
+            text-align: center;
+            color: gray;
+            font-size: 13px;
+            font-weight: 700;
+        }
+            .jssort11 .pav .t, .jssort11 .p:hover .t {
+              color: #fff;
+              }
+.jssort11 .c, .jssort11 .pav:hover .c {
+  position: absolute;
+  top: 38px;
+  left: 3px;
+  width: 194px;
+  height: 32px;
+  line-height: 32px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 400;
+  overflow: hidden;
+  }
+  .jssort11 .pav .c, .jssort11 .p:hover .c {
+    color: #fc9835;
+    }
+    .jssort11 .t, .jssort11 .c {
+      transition: color 2s;
+      -moz-transition: color 2s;
+      -webkit-transition: color 2s;
+      -o-transition: color 2s;
+      }
+      .jssort11 .p:hover .t, .jssort11 .pav:hover .t, .jssort11 .p:hover .c, .jssort11 .pav:hover .c {
+        transition: none;
+        -moz-transition: none;
+        -webkit-transition: none;
+         -o-transition: none;
+         }
+         .jssort11 .p:hover, .jssort11 .pav:hover {
+           background: #333;
+           }
+           .jssort11 .pav, .jssort11 .p.pdn {
+             background: white;
+           }
+#style1{
+  padding:0px;
+  margin:0px;
+  background-color:white;
+  font-family:Arial, sans-serif;
+}
+#style2{
+  cursor: default;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+}
+#style3{
+  position:absolute;
+  right:5px;
+  top:0px;
+  font-family:Arial, Helvetica, sans-serif;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  width:240px;
+  height:300px;
+}
+#stylearrow1{
+  top:0px;
+  left:8px;
+  width:55px;
+  height:55px;
+}
+#stylearrow2{
+  top:0px;
+  right:218px;
+  width:55px;
+  height:55px;
+}
+.stylescreen{
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  left: 0px;
+  width: 870px;
+  height: 300px;
+  overflow: hidden;
+  visibility: hidden;
+  background-color: white;
+}
